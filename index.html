@@ -1,2181 +1,596 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- Social Media / Link Preview -->
-		<meta property="og:type" content="website">
-		<meta property="og:title" content="Angelo & Michelle — We're Getting Married!">
-		<meta property="og:description" content="Join us as we celebrate our wedding on June 5, 2027 in Antipolo, Rizal.">
-		<meta property="og:url" content="https://geloandmishisgettingmarried.com/">
-		<meta property="og:image" content="https://geloandmishisgettingmarried.com/Photos/share-image.webp">
-		<meta property="og:image:width" content="1200">
-		<meta property="og:image:height" content="630">
-
-		<!-- Twitter / X -->
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:title" content="Angelo & Michelle — We're Getting Married!">
-		<meta name="twitter:description" content="Join us as we celebrate our wedding on June 5, 2027 in Antipolo, Rizal.">
-		<meta name="twitter:image" content="https://geloandmishisgettingmarried.com/Photos/share-image.webp">
-        <title>Angelo & Michelle | June 5, 2027</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Angelo &amp; Michelle | June 5, 2027</title>
+<meta name="description" content="Join Angelo &amp; Michelle on June 5, 2027 in Antipolo, Rizal. RSVP, details, travel and more.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#2f361d">
+<link rel="icon" href="./Photos/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Angelo &amp; Michelle — We're Getting Married!">
+<meta property="og:description" content="Join us as we celebrate our wedding on June 5, 2027 in Antipolo, Rizal.">
+<meta property="og:url" content="https://geloandmishisgettingmarried.com/">
+<meta property="og:image" content="https://geloandmishisgettingmarried.com/Photos/wedding-photo.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Angelo &amp; Michelle, June 5, 2027">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Angelo &amp; Michelle — We're Getting Married!">
+<meta name="twitter:description" content="Join us as we celebrate our wedding on June 5, 2027 in Antipolo, Rizal.">
+<meta name="twitter:image" content="https://geloandmishisgettingmarried.com/Photos/share-image.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
 <style>
-        /* ============================================================
-           WEDDING WEBSITE STYLES
-           ============================================================ */
-
-
-    :root{
-      --olive:#4c572d; --olive-dark:#2f361d; --magenta:#a51f57; --magenta-dark:#7d1641;
-      --cream:#f8f2e6; --paper:#fffaf1; --gold:#b69a61; --text:#303126;
-    }
-    *{box-sizing:border-box;scroll-behavior:smooth}
-    body{margin:0;background:var(--cream);color:var(--text);font-family:"DM Sans",sans-serif}
-    h1,h2,h3{font-family:"Cormorant Garamond",serif;font-weight:500}
-    a{text-decoration:none;color:inherit}
-    nav{position:fixed;z-index:20;top:0;left:0;right:0;background:rgba(47,54,29,.96);color:#fff;display:flex;align-items:center;justify-content:space-between;padding:14px 5%;backdrop-filter:blur(8px)}
-    .logo{font-family:"Cormorant Garamond";font-size:25px;letter-spacing:4px}
-    .navlinks{display:flex;gap:25px;font-size:11px;letter-spacing:1.5px;text-transform:uppercase}
-    .navlinks a:hover{color:#e5a0bb}
-    .navbtn{background:var(--magenta);padding:10px 17px;border-radius:2px}
-    .hero{min-height:100vh;display:grid;place-items:center;position:relative;overflow:hidden;background:
-    linear-gradient(90deg,rgba(30,38,18,.68),rgba(255,250,241,.14)),
-    url("./Photos/web-background.webp") center 40%/cover}
-    .hero:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 85% 45%,rgba(255,255,255,.18),transparent 32%)}
-    .hero-content{position:relative;z-index:2;width:min(1100px,90%);color:white;text-align:right;padding-top:65px}
-    .eyebrow{letter-spacing:5px;text-transform:uppercase;font-size:11px}
-    .hero h1{font-size:clamp(65px,10vw,135px);line-height:.75;margin:25px 0;color:#fff}
-    .hero h1 span{font-family:"Great Vibes";font-size:.55em;color:#e4a0ba;display:block;margin:14px}
-    .date{font-size:20px;letter-spacing:5px}
-    .hero .location{margin:12px 0 28px;letter-spacing:2px;font-size:12px}
-    .btn{display:inline-block;background:var(--magenta);color:white;border:0;padding:14px 27px;letter-spacing:1.5px;text-transform:uppercase;font-size:11px;cursor:pointer}
-    .btn:hover{background:var(--magenta-dark)}
-    .scroll{margin-top:50px;font-size:10px;letter-spacing:3px;opacity:.8}
-    section{padding:90px 7%;position:relative}
-    .section-label{text-align:center;color:var(--gold);letter-spacing:4px;text-transform:uppercase;font-size:10px}
-    .section-title{text-align:center;font-size:45px;margin:8px 0 45px;color:var(--olive-dark)}
-    .story{background:var(--paper)}
-    .story-wrap{max-width:1100px;margin:auto;display:grid;grid-template-columns:1fr 2fr;gap:50px;align-items:center}
-    .story-copy h2{font-size:52px;line-height:.9;margin:0 0 20px}
-    .story-copy p{line-height:1.8;color:#686858}
-    .timeline{display:grid;grid-template-columns:repeat(4,1fr);position:relative}
-    .timeline:before{content:"";height:1px;background:#cfc5ac;position:absolute;top:64px;left:6%;right:6%}
-    .milestone{text-align:center;position:relative;z-index:1}
-    .circle{width:105px;height:105px;border-radius:50%;margin:auto;border:6px solid var(--paper);box-shadow:0 0 0 1px #c9bea5;background-size:cover;background-position:center}
-    .milestone:nth-child(1) .circle{background-image:url("https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=400&q=80")}
-    .milestone:nth-child(2) .circle{background-image:url("https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=400&q=80")}
-    .milestone:nth-child(3) .circle{background-image:url("https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=400&q=80")}
-    .milestone:nth-child(4) .circle{background-image:url("https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=400&q=80")}
-    .year{font-family:"Cormorant Garamond";font-size:25px;margin-top:14px}.caption{font-family:"Cormorant Garamond";font-style:italic;font-size:15px}
-    .details{background:#f1eadb}
-    .cards{max-width:100%;margin-left:auto;margin-right:auto;box-sizing:border-box;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-    .card{background:rgba(255,250,241,.8);border:1px solid #ddd3bd;padding:35px 25px;text-align:center}
-    .icon{font-size:30px;color:var(--olive);margin-bottom:10px}
-    .card h3{font-size:clamp(22px, 5vw, 32px);margin:6px}.card p{line-height:1.7;font-size:14px;color:#666}
-    .colors{display:flex;justify-content:center;gap:8px;margin-top:12px}.swatch{width:50px;height:50px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px #aaa}.burgundy{background:#5A1F30}.garnet{background:#7A1E33}.olive{background:#435525}.moss{background:#4F5A32}.coffee{background:#6D4C3D}
-    .travel{background:var(--paper)}
-    .travel-grid{max-width:1100px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.travel .card{text-align:left}
-    .gallery{max-width:1100px;margin:auto;display:grid;grid-template-columns:2fr 1fr 1fr;grid-auto-rows:230px;gap:8px}.gallery div{background-size:cover;background-position:center}.gallery div:first-child{grid-row:span 2}.gallery div:nth-child(4){grid-column:2/4}
-    .gifts {
-      background: #f1eadb;
-    }
-
-    .giftbox {
-      max-width: 900px;
-      margin: auto;
-      text-align: center;
-    }
-
-    .gift-options {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(260px, 360px));
-      justify-content: center;
-      align-items: stretch;
-      gap: 18px;
-      margin-top: 24px;
-    }
-
-    .gift-bpi,
-    .gift-maya {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      background: var(--paper);
-      border: 1px solid #ddd3bd;
-      padding: 25px 30px;
-      min-height: 250px;
-      box-sizing: border-box;
-    }
-
-    .gift-bpi h2,
-    .gift-maya h2 {
-      margin-top: 0;
-    }
-
-    .gift strong {
-      display: block;
-      margin: 8px;
-    }
-    .faq{max-width:900px;margin:auto}.faq-item{border-bottom:1px solid #d5cbb7}.faq-q{padding:18px 4px;cursor:pointer;display:flex;justify-content:space-between}.faq-a{display:none;padding:0 4px 18px;color:#666;line-height:1.6}
-    .countdown{background:var(--olive-dark);color:#fff;text-align:center;padding:55px 20px}.timer{display:flex;justify-content:center;gap:45px;margin-top:20px}.time strong{font:50px "Cormorant Garamond";display:block}.time span{font-size:9px;letter-spacing:2px}
-    footer{text-align:center;padding:65px 20px;background:var(--cream)}footer h2{font-family:"Great Vibes";font-size: clamp(32px, 8vw, 56px);color:var(--magenta);margin:10px}
-
-    .color-palette {
-      display: flex;
-      justify-content: center;
-      gap: 14px;
-      margin-top: 20px;
-    }
-
-    .color-circle {
-      width: 64px;
-      height: 64px;
-      border-radius: 50%;
-      border: 1px solid #aaa;
-      cursor: pointer;
-      transition: transform .25s ease, box-shadow .25s ease;
-    }
-
-    .color-circle:hover {
-      transform: scale(1.08);
-      box-shadow: 0 5px 15px rgba(0,0,0,.15);
-    }
-
-    .burgundy {
-      background: #5A1F30;
-    }
-
-
-
-    .olive {
-      background: #435525;
-    }
-
-    /* EXPANDING GALLERY */
-
-    .color-gallery {
-      width: 100%;
-      max-width: 100%;
-      max-height: 0;
-      overflow: hidden;
-      opacity: 0;
-      transition:
-        max-height .8s ease,
-        opacity .5s ease,
-        margin-top .8s ease;
-
-      margin-top: 0;
-    }
-
-    .color-gallery img {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-        object-fit: cover;
-    }
-
-    .color-gallery.active {
-      max-height: 3000px;
-      opacity: 1;
-      margin-top: 60px;
-    }
-
-    .gallery-content {
-      position: relative;
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 50px 30px;
-      background: #f8f3e9;
-      border: 1px solid #ddd2bd;
-    }
-
-    .gallery-label {
-      text-align: center;
-      letter-spacing: 4px;
-      font-size: 12px;
-      color: #b08a4b;
-      margin-bottom: 10px;
-    }
-
-    .gallery-content h2 {
-      text-align: center;
-      font-family: Georgia, serif;
-      font-size: 38px;
-      font-weight: normal;
-      color: #303b21;
-      margin-bottom: 35px;
-    }
-
-
-    /* PHOTO GRID */
-
-	.gallery-photos {
-	  display: grid;
-	  grid-template-columns: repeat(3, 1fr);
-	  gap: 18px;
-	}
-
-	.gallery-photos img {
-	  width: 100%;
-	  aspect-ratio: 3 / 4;
-	  height: auto;
-	  object-fit: cover;
-	  display: block;
-	}
-
-
-    /* CLOSE BUTTON */
-
-    .close-gallery {
-      position: absolute;
-      top: 15px;
-      right: 20px;
-
-      border: none;
-      background: none;
-
-      font-size: 32px;
-      font-weight: 300;
-      color: #303b21;
-
-      cursor: pointer;
-    }
-
-    .close-gallery:hover {
-      opacity: .6;
-    }
-
-
-    /* MOBILE */
-
-
-
-    .qr-code {
-        width: 120px;
-        height: 120px;
-        object-fit: contain;
-        margin: 10px auto;
-        display: block;
-    }
-
-    .rsvp-section {
-        background: #435525;
-        padding: 100px 8%;
-        color: #F8F2E6;
-    }
-
-    .rsvp-container {
-        max-width: 1100px;
-        margin: auto;
-        background: #F8F2E6;
-        color: #17200f;
-
-        display: grid;
-        grid-template-columns: 40% 60%;
-    }
-
-
-    /* LEFT */
-
-    .rsvp-intro {
-        background: #435525;
-        padding: 60px;
-    }
-
-    .rsvp-intro .eyebrow {
-        color: #D5A24A;
-        font-size: 11px;
-        letter-spacing: 5px;
-    }
-
-    .rsvp-intro h2 {
-        font-family: Georgia, serif;
-        font-size: clamp(42px, 5vw, 65px);
-        line-height: .95;
-        font-weight: normal;
-        margin: 25px 0;
-    }
-
-    .rsvp-intro p {
-        font-size: 16px;
-        line-height: 1.8;
-        max-width: 360px;
-    }
-
-    .rsvp-intro .deadline {
-        margin-top: 30px;
-    }
-
-    .rsvp-intro strong {
-        color: #F8F2E6;
-    }
-
-
-    /* FORM */
-
-    .rsvp-form {
-        padding: 55px;
-    }
-
-    .rsvp-form label {
-        display: block;
-        font-size: 11px;
-        letter-spacing: 2px;
-        margin-bottom: 10px;
-    }
-
-    .rsvp-form input[type="text"] {
-        width: 100%;
-        box-sizing: border-box;
-
-        border: 1px solid #cfc7b7;
-        background: #fffdf8;
-
-        padding: 16px;
-
-        font-size: 16px;
-        outline: none;
-    }
-
-    .rsvp-form input[type="text"]:focus {
-        border-color: #7A1E33;
-    }
-
-
-    .rsvp-button {
-        width: 100%;
-        max-width: 100%;
-        border: none;
-
-        background: #7A1E33;
-        color: #F8F2E6;
-
-        padding: 17px;
-
-        margin-top: 20px;
-
-        font-size: 11px;
-        letter-spacing: 2px;
-
-        cursor: pointer;
-
-        transition: .2s;
-    }
-
-    .rsvp-button:hover {
-        background: #5A1F30;
-    }
-
-    .rsvp-button:disabled {
-        opacity: .65;
-        cursor: wait;
-    }
-
-
-    /* INVITATION */
-
-    .welcome {
-        text-align: center;
-        margin-bottom: 35px;
-    }
-
-    .welcome > span {
-        font-size: 10px;
-        letter-spacing: 3px;
-        color: #7A1E33;
-    }
-
-    .welcome h3 {
-        font-family: Georgia, serif;
-        font-size: 38px;
-        font-weight: normal;
-        margin: 12px 0;
-    }
-
-    .welcome p {
-        margin: 5px 0;
-    }
-
-
-    .seat-count {
-        margin: 20px 0;
-    }
-
-    .seat-count strong {
-        display: block;
-
-        font-family: Georgia, serif;
-        font-size: 55px;
-
-        color: #7A1E33;
-    }
-
-    .seat-count span {
-        font-size: 10px;
-        letter-spacing: 3px;
-    }
-
-
-    /* ATTENDANCE */
-
-    .attendance {
-        display: flex;
-        gap: 30px;
-        margin: 30px 0;
-    }
-
-    .attendance-option {
-        display: flex !important;
-        align-items: center;
-        gap: 8px;
-
-        font-size: 13px !important;
-        letter-spacing: 0 !important;
-
-        cursor: pointer;
-    }
-
-    .attendance-option input {
-        accent-color: #7A1E33;
-    }
-
-
-    /* GUEST NAMES */
-
-    .guest-names {
-        margin-top: 30px;
-        padding-top: 25px;
-        border-top: 1px solid #d8d0c1;
-    }
-
-    .guest-names h4 {
-        font-size: 11px;
-        letter-spacing: 2px;
-        margin-bottom: 5px;
-    }
-
-    .guest-names p {
-        font-size: 13px;
-        margin-bottom: 20px;
-    }
-
-    .guest-field {
-        margin-bottom: 15px;
-    }
-
-
-    /* SUCCESS */
-
-    .success-message {
-        text-align: center;
-        padding: 40px 10px;
-    }
-
-    .success-symbol {
-        font-size: 55px;
-        color: #7A1E33;
-    }
-
-    .success-message h3 {
-        font-family: Georgia, serif;
-        font-size: 40px;
-        font-weight: normal;
-    }
-
-
-    /* UTILITIES */
-
-    .hidden {
-        display: none !important;
-    }
-
-    .error-message {
-        color: #7A1E33;
-        font-size: 13px;
-        margin-top: 15px;
-    }
-
-
-    /* MOBILE */
-
-
-
-    /* MUSIC BUTTON */
-
-    .music-player {
-        position: fixed;
-        right: 20px;
-        bottom: 20px;
-        z-index: 9999;
-    }
-
-    #musicButton {
-        width: 52px;
-        height: 52px;
-
-        border-radius: 50%;
-        border: 1px solid #d8cdb8;
-
-        background: #f8f3e9;
-        color: #303b21;
-
-        font-size: 22px;
-
-        cursor: pointer;
-
-        box-shadow: 0 4px 15px rgba(0,0,0,.15);
-
-        transition:
-            transform .25s ease,
-            background .25s ease;
-    }
-
-    #musicButton:hover {
-        transform: scale(1.08);
-    }
-
-    #musicButton.playing {
-        background: #5A1F30;
-        color: white;
-    }
-
-
-    /* MOBILE */
-
-
-
-    .invitation-placeholder {
-        text-align: center;
-        padding: 55px 30px 20px;
-        color: #532337;
-    }
-
-    /* Decorative divider */
-    .floral-divider {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 18px;
-        margin-bottom: 30px;
-    }
-
-    .floral-divider span:not(.floral-symbol) {
-        width: 110px;
-        height: 1px;
-        background: #B99A5B;
-    }
-
-    .floral-symbol {
-        color: #B99A5B;
-        font-size: 26px;
-    }
-
-    /* Main message */
-    .invitation-placeholder h2 {
-        font-family: "Cormorant Garamond", serif;
-        font-size: 42px;
-        font-weight: 400;
-        margin: 0 0 15px;
-    }
-
-    .invitation-placeholder p {
-        font-family: "DM Sans", sans-serif;
-        font-size: 15px;
-        line-height: 1.8;
-        color: #435525;
-        margin: 0 auto 40px;
-    }
-
-    /* A & M */
-    .monogram {
-        font-family: "Cormorant Garamond", serif;
-        font-size: 38px;
-        letter-spacing: 5px;
-        color: #B99A5B;
-        margin-bottom: 18px;
-    }
-
-    .monogram span {
-        font-size: 25px;
-        margin: 0 5px;
-    }
-
-    /* Date */
-    .wedding-date {
-        font-family: "DM Sans", sans-serif;
-        font-size: 11px;
-        letter-spacing: 4px;
-        color: #435525;
-    }
-
-    .loading-spinner {
-        display: inline-block;
-        width: 12px;
-        height: 12px;
-        border: 2px solid rgba(255,255,255,.4);
-        border-top-color: white;
-        border-radius: 50%;
-        animation: spin .7s linear infinite;
-        vertical-align: -2px;
-        margin-right: 6px;
-    }
-
-    @keyframes spin {
-        to {
-            transform: rotate(360deg);
-        }
-    }
-
-    /* =========================
-       MOBILE MENU
-    ========================= */
-
-    .menu-toggle {
-        display: none;
-
-        border: none;
-        background: transparent;
-        color: white;
-
-        font-size: 28px;
-        line-height: 1;
-
-        cursor: pointer;
-
-        padding: 5px;
-    }
-
-    /* Mobile menu - hidden on desktop */
-    .mobile-menu {
-        display: none;
-    }
-
-
-
-    /* =========================================
-       MOBILE / SAMSUNG GALAXY Z FLIP 6
-       ========================================= */
-
-    * {
-        box-sizing: border-box;
-    }
-
-    html {
-        width: 100%;
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-
-    body {
-        width: 100%;
-        max-width: 100%;
-        margin: 0;
-        overflow-x: hidden;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    section {
-        width: 100%;
-        max-width: 100%;
-        overflow: hidden;
-    }
-
-    /* -----------------------------------------
-       MOBILE GENERAL
-       ----------------------------------------- */
-
-
-
-    /* -----------------------------------------
-       NARROW PHONES
-       Galaxy Z Flip cover + narrow devices
-       ----------------------------------------- */
-
-
-
-    /* -----------------------------------------
-       VERY NARROW SCREEN
-       ----------------------------------------- */
-
-
-
-
-
-    html,
-    body {
-        overflow-x: hidden;
-    	padding-left: env(safe-area-inset-left);
-        padding-right: env(safe-area-inset-right);
-    }
-    img,
-    video,
-    iframe {
-        max-width: 100%;
-    }
-
-    /* =========================================================
-       CONSOLIDATED RESPONSIVE LAYOUT
-       Desktop > 800px
-       Mobile  <= 800px
-       Small   <= 420px
-       Cover   <= 280px
-       ========================================================= */
-
-    html, body{
-      width:100%;
-      max-width:100%;
-      overflow-x:hidden;
-    }
-
-    img, video, iframe{
-      max-width:100%;
-    }
-
-    @media (max-width:800px){
-
-      section{
-        width:100%;
-        max-width:100%;
-        padding:65px 20px;
-        overflow:hidden;
-      }
-
-      /* Navigation */
-      nav{
-        width:100%;
-        padding:12px 18px;
-      }
-
-      .navlinks,
-      nav .navbtn{
-        display:none;
-      }
-
-      .menu-toggle{
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        position:relative;
-        z-index:1002;
-        width:44px;
-        height:44px;
-        padding:0;
-        border:0;
-        background:transparent;
-        color:#fff;
-        font-size:30px;
-        line-height:1;
-        cursor:pointer;
-        -webkit-tap-highlight-color:transparent;
-        touch-action:manipulation;
-      }
-
-      .mobile-menu{
-        position:fixed;
-        top:0;
-        left:0;
-        right:0;
-        width:100%;
-        max-width:100vw;
-        min-height:100vh;
-        z-index:1001;
-
-        display:flex;
-        flex-direction:column;
-        align-items:stretch;
-
-        padding:90px 24px 30px;
-        background:rgba(47,54,29,.98);
-        backdrop-filter:blur(12px);
-        -webkit-backdrop-filter:blur(12px);
-
-        transform:translate3d(0,-100%,0);
-        opacity:0;
-        visibility:hidden;
-        pointer-events:none;
-
-        transition:
-          transform .3s ease,
-          opacity .25s ease,
-          visibility 0s linear .3s;
-
-        overflow-y:auto;
-        -webkit-overflow-scrolling:touch;
-      }
-
-      .mobile-menu.active{
-        transform:translate3d(0,0,0);
-        opacity:1;
-        visibility:visible;
-        pointer-events:auto;
-        transition:
-          transform .3s ease,
-          opacity .25s ease,
-          visibility 0s linear 0s;
-      }
-
-      .mobile-menu a{
-        display:block;
-        width:100%;
-        padding:18px 10px;
-        color:#fff;
-        border-bottom:1px solid rgba(255,255,255,.12);
-        font-size:12px;
-        letter-spacing:2px;
-        text-align:center;
-        text-transform:uppercase;
-      }
-
-      .mobile-menu .mobile-rsvp{
-        margin-top:18px;
-        background:#7A1E33;
-        border-bottom:0;
-        color:#fff;
-      }
-
-      /* Hero */
-      .hero{
-        width:100%;
-        min-height:850px;
-      }
-
-      .hero-content{
-        width:100%;
-        max-width:100%;
-        padding:60px 15px 0;
-        text-align:center;
-      }
-
-      .hero h1{
-        width:100%;
-        max-width:100%;
-        font-size:clamp(48px,15vw,70px);
-        line-height:.95;
-      }
-
-      .date{
-        font-size:18px;
-        letter-spacing:4px;
-      }
-
-      /* Story */
-      .story-wrap{
-        grid-template-columns:1fr;
-        gap:40px;
-      }
-
-      .timeline{
-        grid-template-columns:1fr 1fr;
-        gap:30px;
-      }
-
-      .timeline:before{
-        display:none;
-      }
-
-      /* Details */
-      .cards,
-      .travel-grid{
-        grid-template-columns:1fr;
-      }
-
-      .section-title{
-        font-size:clamp(34px,9vw,45px);
-      }
-
-      /* Color palette */
-      .color-palette{
-        flex-wrap:wrap;
-      }
-
-      .color-circle{
-        width:52px;
-        height:52px;
-      }
-
-      /* Color gallery */
-      .gallery-content{
-        width:100%;
-        max-width:100%;
-        padding:45px 20px;
-      }
-
-      .gallery-content h2{
-        font-size:30px;
-      }
-
-      .gallery-photos{
-        grid-template-columns:1fr;
-        gap:20px;
-      }
-
-      .gallery-photos img{
-        width:100%;
-        height:auto;
-      }
-
-      /* RSVP */
-      .rsvp-section{
-        padding:50px 20px;
-      }
-
-      .rsvp-container{
-        width:100%;
-        max-width:1100px;
-        grid-template-columns:1fr;
-      }
-
-      .rsvp-intro{
-        padding:40px 30px;
-      }
-
-      .rsvp-intro h2{
-        font-size:clamp(42px,12vw,58px);
-      }
-
-      .rsvp-form{
-        padding:35px 25px;
-      }
-
-      .rsvp-button{
-        width:100%;
-        max-width:100%;
-      }
-
-      .attendance{
-        flex-direction:column;
-        gap:15px;
-      }
-
-      .guest-name-input,
-      .rsvp-form input[type="text"]{
-        width:100%;
-        max-width:100%;
-      }
-
-      /* Main photo gallery */
-      .gallery{
-        width:100%;
-        max-width:100%;
-        grid-template-columns:1fr 1fr;
-        grid-auto-rows:180px;
-      }
-
-      .gallery div:first-child{
-        grid-row:span 1;
-      }
-
-      .gallery div:nth-child(4){
-        grid-column:auto;
-      }
-
-      /* Gifts */
-      .gift-options {
-        grid-template-columns: minmax(0, 360px);
-        width: 100%;
-      }
-
-      .gift-bpi,
-      .gift-maya {
-        width: 100%;
-        max-width: 360px;
-        padding: 25px 30px;
-      }
-
-      /* Countdown */
-      .timer{
-        gap:18px;
-        flex-wrap:wrap;
-      }
-
-      .time strong{
-        font-size:38px;
-      }
-
-      /* Music */
-      .music-player{
-        right:15px;
-        bottom:75px;
-      }
-
-      #musicButton{
-        width:48px;
-        height:48px;
-      }
-
-      /* Invitation placeholder */
-      .invitation-placeholder{
-        padding-left:10px;
-        padding-right:10px;
-      }
-
-      .floral-divider span:not(.floral-symbol){
-        width:min(110px,25vw);
-      }
-
-      .invitation-placeholder h2{
-        font-size:clamp(34px,9vw,42px);
-      }
-    }
-
-    @media (max-width:420px){
-
-      section{
-        padding-left:16px;
-        padding-right:16px;
-      }
-
-      .hero{
-        min-height:780px;
-      }
-
-      .hero-content{
-        padding-left:10px;
-        padding-right:10px;
-      }
-
-      .hero h1{
-        font-size:clamp(46px,15vw,64px);
-      }
-
-      .date{
-        font-size:16px;
-        letter-spacing:3px;
-      }
-
-      .hero .location{
-        font-size:10px;
-        letter-spacing:1.5px;
-      }
-
-      .rsvp-section{
-        padding:40px 16px;
-      }
-
-      .rsvp-intro{
-        padding:35px 22px;
-      }
-
-      .rsvp-form{
-        padding:30px 18px;
-      }
-
-      .color-circle,
-      .swatch{
-        width:48px;
-        height:48px;
-      }
-
-      .gallery-content{
-        padding:40px 16px;
-      }
-
-      .timer{
-        gap:12px;
-      }
-    }
-
-    @media (max-width:380px){
-
-      .gallery{
-        grid-template-columns:1fr;
-        grid-auto-rows:220px;
-      }
-
-      .gallery div:first-child{
-        grid-row:span 1;
-      }
-    }
-
-    @media (max-width:280px){
-
-      section{
-        padding-left:10px;
-        padding-right:10px;
-      }
-
-      .hero{
-        min-height:650px;
-      }
-
-      .hero h1{
-        font-size:38px;
-      }
-
-      .date{
-        font-size:14px;
-        letter-spacing:2px;
-      }
-
-      .hero .location{
-        font-size:9px;
-        letter-spacing:1px;
-      }
-
-      .btn{
-        padding:12px 18px;
-        font-size:10px;
-      }
-
-      .timer{
-        gap:7px;
-      }
-
-      .time strong{
-        font-size:29px;
-      }
-
-      .time span{
-        font-size:7px;
-        letter-spacing:1px;
-      }
-
-      .rsvp-intro{
-        padding:30px 15px;
-      }
-
-      .rsvp-form{
-        padding:25px 12px;
-      }
-
-      .gallery-content{
-        padding:35px 10px;
-      }
-    }
-	
-	.gallery img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    border-radius: inherit;
+:root{--olive:#4c572d;--olive-dark:#2f361d;--magenta:#a51f57;--magenta-dark:#7d1641;--cream:#f8f2e6;--paper:#fffaf1;--gold:#b69a61;--text:#303126}
+*{box-sizing:border-box}
+html{width:100%;overflow-x:hidden}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+body{margin:0;width:100%;overflow-x:hidden;background:var(--cream);color:var(--text);font-family:"DM Sans",sans-serif;padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right)}
+img,video,iframe{max-width:100%;height:auto}
+h1,h2,h3{font-family:"Cormorant Garamond",serif;font-weight:500}
+a{text-decoration:none;color:inherit}
+.hidden{display:none!important}
+nav{position:fixed;z-index:20;top:0;left:0;right:0;background:rgba(47,54,29,.96);color:#fff;display:flex;align-items:center;justify-content:space-between;padding:14px 5%;backdrop-filter:blur(8px)}
+.logo{font-family:"Cormorant Garamond";font-size:25px;letter-spacing:4px}
+.navlinks{display:flex;gap:25px;font-size:11px;letter-spacing:1.5px;text-transform:uppercase}
+.navlinks a:hover{color:#e5a0bb}
+.navbtn{background:var(--magenta);padding:10px 17px;border-radius:2px}
+.menu-toggle,.mobile-menu{display:none}
+.hero{min-height:100vh;display:grid;place-items:center;position:relative;overflow:hidden;background:linear-gradient(90deg,rgba(30,38,18,.68),rgba(255,250,241,.14)),url("./Photos/web-background.webp") center 40%/cover}
+.hero:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 85% 45%,rgba(255,255,255,.18),transparent 32%)}
+.hero-content{position:relative;z-index:2;width:min(1100px,90%);color:#fff;text-align:right;padding-top:65px}
+.eyebrow{letter-spacing:5px;text-transform:uppercase;font-size:11px}
+.hero h1{font-size:clamp(65px,10vw,135px);line-height:.75;margin:25px 0;color:#fff}
+.hero h1 span{font-family:"Great Vibes";font-size:.55em;color:#e4a0ba;display:block;margin:14px}
+.date{font-size:20px;letter-spacing:5px}
+.hero .location{margin:12px 0 28px;letter-spacing:2px;font-size:12px}
+.btn{display:inline-block;background:var(--magenta);color:#fff;border:0;padding:14px 27px;letter-spacing:1.5px;text-transform:uppercase;font-size:11px;cursor:pointer}
+.btn:hover{background:var(--magenta-dark)}
+.scroll{margin-top:50px;font-size:10px;letter-spacing:3px;opacity:.8}
+section{padding:90px 7%;position:relative;width:100%;overflow:hidden}
+.section-label{text-align:center;color:var(--gold);letter-spacing:4px;text-transform:uppercase;font-size:10px}
+.section-title{text-align:center;font-size:45px;margin:8px 0 45px;color:var(--olive-dark)}
+.details{background:#f1eadb}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:rgba(255,250,241,.8);border:1px solid #ddd3bd;padding:35px 25px;text-align:center}
+.icon{font-size:30px;color:var(--olive);margin-bottom:10px}
+.card h3{font-size:clamp(22px,5vw,32px);margin:6px}
+.card p{line-height:1.7;font-size:14px;color:#666}
+.colors{display:flex;justify-content:center;gap:8px;margin-top:12px}
+.swatch{width:50px;height:50px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px #aaa;cursor:pointer;transition:transform .25s}
+.swatch:hover{transform:scale(1.08)}
+.burgundy{background:#5A1F30}.garnet{background:#7A1E33}.olive{background:#435525}.moss{background:#4F5A32}.coffee{background:#6D4C3D}
+.color-gallery{width:100%;max-height:0;overflow:hidden;opacity:0;margin-top:0;transition:max-height .8s ease,opacity .5s ease,margin-top .8s ease}
+.color-gallery.active{max-height:3000px;opacity:1;margin-top:60px}
+.gallery-content{position:relative;max-width:1100px;margin:0 auto;padding:50px 30px;background:#f8f3e9;border:1px solid #ddd2bd}
+.gallery-label{text-align:center;letter-spacing:4px;font-size:12px;color:#b08a4b;margin-bottom:10px}
+.gallery-content h2{text-align:center;font-family:Georgia,serif;font-size:38px;font-weight:400;color:#303b21;margin-bottom:35px}
+.gallery-photos{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.gallery-photos img{width:100%;aspect-ratio:3/4;object-fit:cover;display:block}
+.close-gallery{position:absolute;top:15px;right:20px;border:0;background:none;font-size:32px;font-weight:300;color:#303b21;cursor:pointer}
+.close-gallery:hover{opacity:.6}
+.travel{background:var(--paper)}
+.travel-grid{max-width:1100px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.travel .card{text-align:left}
+.gallery-section{padding:25px 20px 30px;background:var(--cream);text-align:center}
+.gallery-section .section-label{margin-bottom:8px}
+.gallery-section .section-title{margin:0}
+.featured-photo{display:flex;justify-content:center;width:100%;max-width:1100px;margin:0 auto}
+.featured-photo img{display:block;width:100%;max-width:900px}
+.gifts{background:#f1eadb}
+.giftbox{max-width:900px;margin:auto;text-align:center}
+.gift-options{display:grid;grid-template-columns:repeat(2,minmax(260px,360px));justify-content:center;gap:18px;margin-top:24px}
+.gift-bpi,.gift-maya{display:flex;flex-direction:column;align-items:center;justify-content:center;background:var(--paper);border:1px solid #ddd3bd;padding:25px 30px;min-height:250px}
+.gift-bpi h2,.gift-maya h2{margin-top:0}
+.qr-code{width:120px;height:120px;object-fit:contain;margin:10px auto;display:block}
+.faq{max-width:900px;margin:auto}
+.faq-item{border-bottom:1px solid #d5cbb7}
+.faq-q{display:flex;justify-content:space-between;width:100%;padding:18px 4px;background:none;border:0;font:inherit;color:inherit;text-align:left;cursor:pointer}
+.faq-a{display:none;padding:0 4px 18px;color:#666;line-height:1.6}
+.countdown{background:var(--olive-dark);color:#fff;text-align:center;padding:55px 20px}
+.timer{display:flex;justify-content:center;gap:45px;margin-top:20px}
+.time strong{font:50px "Cormorant Garamond";display:block}
+.time span{font-size:9px;letter-spacing:2px}
+footer{text-align:center;padding:65px 20px;background:var(--cream)}
+footer h2{font-family:"Great Vibes";font-size:clamp(32px,8vw,56px);color:var(--magenta);margin:10px}
+.rsvp-section{background:#435525;padding:100px 8%;color:#F8F2E6}
+.rsvp-container{max-width:1100px;margin:auto;background:#F8F2E6;color:#17200f;display:grid;grid-template-columns:40% 60%}
+.rsvp-intro{background:#435525;padding:60px}
+.rsvp-intro .eyebrow{color:#D5A24A;font-size:11px;letter-spacing:5px}
+.rsvp-intro h2{font-family:Georgia,serif;font-size:clamp(42px,5vw,65px);line-height:.95;font-weight:400;margin:25px 0}
+.rsvp-intro p{font-size:16px;line-height:1.8;max-width:360px}
+.rsvp-intro .deadline{margin-top:30px}
+.rsvp-form{padding:55px}
+.rsvp-form label{display:block;font-size:11px;letter-spacing:2px;margin-bottom:10px}
+.rsvp-form input[type="text"]{width:100%;border:1px solid #cfc7b7;background:#fffdf8;padding:16px;font-size:16px;outline:none}
+.rsvp-form input[type="text"]:focus{border-color:#7A1E33}
+.rsvp-button{width:100%;border:0;background:#7A1E33;color:#F8F2E6;padding:17px;margin-top:20px;font-size:11px;letter-spacing:2px;cursor:pointer;transition:.2s}
+.rsvp-button:hover{background:#5A1F30}
+.rsvp-button:disabled{opacity:.65;cursor:wait}
+.welcome{text-align:center;margin-bottom:35px}
+.welcome>span{font-size:10px;letter-spacing:3px;color:#7A1E33}
+.welcome h3{font-family:Georgia,serif;font-size:38px;font-weight:400;margin:12px 0}
+.welcome p{margin:5px 0}
+.seat-count{margin:20px 0}
+.seat-count strong{display:block;font-family:Georgia,serif;font-size:55px;color:#7A1E33}
+.seat-count span{font-size:10px;letter-spacing:3px}
+.attendance{display:flex;gap:30px;margin:30px 0}
+.attendance-option{display:flex!important;align-items:center;gap:8px;font-size:13px!important;letter-spacing:0!important;cursor:pointer}
+.attendance-option input{accent-color:#7A1E33}
+.guest-names{margin-top:30px;padding-top:25px;border-top:1px solid #d8d0c1}
+.guest-names h4{font-size:11px;letter-spacing:2px;margin-bottom:5px}
+.guest-names p{font-size:13px;margin-bottom:20px}
+.guest-field{margin-bottom:15px}
+.success-message{text-align:center;padding:40px 10px}
+.success-symbol{font-size:55px;color:#7A1E33}
+.success-message h3{font-family:Georgia,serif;font-size:40px;font-weight:400}
+.error-message{color:#7A1E33;font-size:13px;margin-top:15px}
+.invitation-placeholder{text-align:center;padding:55px 30px 20px;color:#532337}
+.floral-divider{display:flex;align-items:center;justify-content:center;gap:18px;margin-bottom:30px}
+.floral-divider span:not(.floral-symbol){width:110px;height:1px;background:#B99A5B}
+.floral-symbol{color:#B99A5B;font-size:26px}
+.invitation-placeholder h2{font-family:"Cormorant Garamond",serif;font-size:42px;font-weight:400;margin:0 0 15px}
+.invitation-placeholder p{font-size:15px;line-height:1.8;color:#435525;margin:0 auto 40px}
+.monogram{font-family:"Cormorant Garamond",serif;font-size:38px;letter-spacing:5px;color:#B99A5B;margin-bottom:18px}
+.monogram span{font-size:25px;margin:0 5px}
+.wedding-date{font-size:11px;letter-spacing:4px;color:#435525}
+.loading-spinner{display:inline-block;width:12px;height:12px;border:2px solid rgba(255,255,255,.4);border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite;vertical-align:-2px;margin-right:6px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.music-player{position:fixed;right:20px;bottom:20px;z-index:9999}
+#musicButton{width:52px;height:52px;border-radius:50%;border:1px solid #d8cdb8;background:#f8f3e9;color:#303b21;font-size:22px;cursor:pointer;box-shadow:0 4px 15px rgba(0,0,0,.15);transition:transform .25s,background .25s}
+#musicButton:hover{transform:scale(1.08)}
+#musicButton.playing{background:#5A1F30;color:#fff}
+
+@media (max-width:800px){
+section{padding:65px 20px}
+nav{padding:12px 18px}
+.navlinks,nav .navbtn{display:none}
+.menu-toggle{display:flex;align-items:center;justify-content:center;position:relative;z-index:1002;width:44px;height:44px;padding:0;border:0;background:transparent;color:#fff;font-size:30px;line-height:1;cursor:pointer;touch-action:manipulation}
+.mobile-menu{display:flex;flex-direction:column;position:fixed;top:0;left:0;right:0;width:100%;min-height:100vh;min-height:100dvh;z-index:1001;padding:90px 24px 30px;background:rgba(47,54,29,.98);backdrop-filter:blur(12px);transform:translate3d(0,-100%,0);opacity:0;visibility:hidden;pointer-events:none;transition:transform .3s ease,opacity .25s ease,visibility 0s linear .3s;overflow-y:auto}
+.mobile-menu.active{transform:none;opacity:1;visibility:visible;pointer-events:auto;transition:transform .3s ease,opacity .25s ease,visibility 0s}
+.mobile-menu a{display:block;padding:18px 10px;color:#fff;border-bottom:1px solid rgba(255,255,255,.12);font-size:12px;letter-spacing:2px;text-align:center;text-transform:uppercase}
+.mobile-menu .mobile-rsvp{margin-top:18px;background:#7A1E33;border-bottom:0}
+.hero{min-height:850px}
+.hero-content{width:100%;padding:60px 15px 0;text-align:center}
+.hero h1{font-size:clamp(48px,15vw,70px);line-height:.95}
+.date{font-size:18px;letter-spacing:4px}
+.cards,.travel-grid{grid-template-columns:1fr}
+.section-title{font-size:clamp(34px,9vw,45px)}
+.gallery-content{padding:45px 20px}
+.gallery-content h2{font-size:30px}
+.gallery-photos{grid-template-columns:1fr;gap:20px}
+.rsvp-section{padding:50px 20px}
+.rsvp-container{grid-template-columns:1fr}
+.rsvp-intro{padding:40px 30px}
+.rsvp-intro h2{font-size:clamp(42px,12vw,58px)}
+.rsvp-form{padding:35px 25px}
+.attendance{flex-direction:column;gap:15px}
+.gift-options{grid-template-columns:minmax(0,360px);width:100%}
+.gift-bpi,.gift-maya{width:100%;max-width:360px}
+.timer{gap:18px;flex-wrap:wrap}
+.time strong{font-size:38px}
+.music-player{right:15px;bottom:75px}
+#musicButton{width:48px;height:48px}
+.invitation-placeholder{padding-left:10px;padding-right:10px}
+.floral-divider span:not(.floral-symbol){width:min(110px,25vw)}
+.invitation-placeholder h2{font-size:clamp(34px,9vw,42px)}
 }
-
-	.gallery > div {
-		overflow: hidden;
-	}
-	
-
-.gallery-section {
-    padding: 25px 20px 30px;
-    margin: 0;
-    background: #F8F2E6;
-    text-align: center;
+@media (max-width:420px){
+section{padding-left:16px;padding-right:16px}
+.hero{min-height:780px}
+.hero-content{padding-left:10px;padding-right:10px}
+.hero h1{font-size:clamp(46px,15vw,64px)}
+.date{font-size:16px;letter-spacing:3px}
+.hero .location{font-size:10px;letter-spacing:1.5px}
+.rsvp-section{padding:40px 16px}
+.rsvp-intro{padding:35px 22px}
+.rsvp-form{padding:30px 18px}
+.swatch{width:48px;height:48px}
+.gallery-content{padding:40px 16px}
+.timer{gap:12px}
 }
-
-.gallery-section .section-label {
-    margin-bottom: 8px;
+@media (max-width:280px){
+section{padding-left:10px;padding-right:10px}
+.hero{min-height:650px}
+.hero h1{font-size:38px}
+.date{font-size:14px;letter-spacing:2px}
+.hero .location{font-size:9px;letter-spacing:1px}
+.btn{padding:12px 18px;font-size:10px}
+.timer{gap:7px}
+.time strong{font-size:29px}
+.time span{font-size:7px;letter-spacing:1px}
+.rsvp-intro{padding:30px 15px}
+.rsvp-form{padding:25px 12px}
+.gallery-content{padding:35px 10px}
 }
-
-.gallery-section .section-title {
-    margin-top: 0;
-    margin-bottom: 0px;
-}
-
-.featured-photo {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0;
-}
-
-.featured-photo img {
-    display: block;
-    width: 100%;
-    max-width: 900px;
-    height: auto;
-    max-height: none;
-    margin: 0;
-    padding: 0;
-    box-shadow: none;
-    border: none;
-}
-
-
 </style>
 </head>
 <body>
-    <div class="music-player">
+<div class="music-player">
+  <button id="musicButton" type="button" onclick="toggleMusic()" aria-label="Play wedding music" aria-pressed="false">♫</button>
+  <audio id="weddingMusic" loop preload="none"><source src="./Media/Be With You.mp3" type="audio/mpeg"></audio>
+</div>
 
-        <button id="musicButton"
-            type="button"
-            onclick="toggleMusic()"
-            aria-label="Play wedding music"
-            aria-pressed="false">
-            ♫
-        </button>
+<nav aria-label="Main">
+  <a href="#home" class="logo">A | M</a>
+  <div class="navlinks">
+    <a href="#details">Details</a><a href="#rsvp">RSVP</a><a href="#travel">Travel</a><a href="#gallery">Gallery</a><a href="#gifts">Gifts</a><a href="#faq">FAQ</a>
+  </div>
+  <a href="#rsvp" class="navbtn">RSVP NOW →</a>
+  <button type="button" class="menu-toggle" id="menuToggle" onclick="toggleMenu()" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileMenu">☰</button>
+</nav>
 
-        <audio id="weddingMusic" loop>
-            <source src="./Media/Be With You.mp3" type="audio/mpeg">
-        </audio>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#details" onclick="closeMenu()">Details</a>
+  <a href="#rsvp" onclick="closeMenu()">RSVP</a>
+  <a href="#travel" onclick="closeMenu()">Travel</a>
+  <a href="#gallery" onclick="closeMenu()">Gallery</a>
+  <a href="#gifts" onclick="closeMenu()">Gifts</a>
+  <a href="#faq" onclick="closeMenu()">FAQ</a>
+  <a href="#rsvp" class="mobile-rsvp" onclick="closeMenu()">RSVP NOW →</a>
+</div>
 
+<main>
+<header id="home" class="hero">
+  <div class="hero-content">
+    <div class="eyebrow">An Intimate Celebration</div>
+    <h1>Angelo <span>&amp;</span> Michelle</h1>
+    <div class="eyebrow">Are getting married</div>
+    <div class="date">JUNE 5, 2027</div>
+    <div class="location">ANTIPOLO, RIZAL</div>
+    <a class="btn" href="#rsvp">RSVP NOW →</a>
+    <div class="scroll">↓ SCROLL TO EXPLORE</div>
+  </div>
+</header>
+
+<section id="details" class="details">
+  <div class="section-label">Wedding Details</div>
+  <h2 class="section-title">We can't wait to celebrate with you!</h2>
+  <div class="cards">
+    <div class="card"><div class="icon">⚘</div><h3>Ceremony</h3><p><strong>3:30 PM</strong><br>Jardin de Miramar, PARADISO<br>Antipolo, Rizal</p></div>
+    <div class="card"><div class="icon">☘</div><h3>Reception</h3><p><strong>6:00 PM</strong><br>Jardin de Miramar, CAFE LEONITA<br>Antipolo, Rizal</p></div>
+    <div class="card"><div class="icon">⚜</div><h3>Dress Code</h3><p><strong>Formal / Garden Formal</strong></p>
+      <div id="colorChoices" class="colors">
+        <button type="button" class="swatch burgundy" onclick="showGallery('burgundy')" aria-label="Show burgundy photos"></button>
+        <button type="button" class="swatch garnet" onclick="showGallery('garnet')" aria-label="Show garnet photos"></button>
+        <button type="button" class="swatch olive" onclick="showGallery('olive')" aria-label="Show olive photos"></button>
+        <button type="button" class="swatch moss" onclick="showGallery('moss')" aria-label="Show moss photos"></button>
+        <button type="button" class="swatch coffee" onclick="showGallery('coffee')" aria-label="Show coffee photos"></button>
+      </div>
+      <p>We'd love to see you in our wedding colors.<br><i>Click each swatch to view sample.</i></p></div>
+  </div>
+  <div id="colorGallery" class="color-gallery">
+    <div class="gallery-content">
+      <button type="button" class="close-gallery" onclick="closeGallery()" aria-label="Close gallery">×</button>
+      <p class="gallery-label">OUR WEDDING COLORS</p>
+      <h2 id="galleryTitle">Burgundy</h2>
+      <div id="galleryPhotos" class="gallery-photos"></div>
     </div>
-    <nav>
-        <a href="#home" class="logo">A | M</a>
+  </div>
+</section>
 
-        <!-- DESKTOP NAVIGATION -->
-        <div class="navlinks">
-            <a href="#story">Our Story</a>
-            <a href="#details">Details</a>
-            <a href="#rsvp">RSVP</a>
-            <a href="#travel">Travel</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#gifts">Gifts</a>
-            <a href="#faq">FAQ</a>
-        </div>
-
-        <a href="#rsvp" class="navbtn">RSVP NOW →</a>
-
-        <!-- MOBILE MENU BUTTON -->
-        <button
-            type="button"
-            class="menu-toggle"
-            id="menuToggle"
-            onclick="toggleMenu()"
-            aria-label="Open navigation menu"
-            aria-expanded="false">
-            ☰
-        </button>
-    </nav>
-
-    <!-- MOBILE MENU -->
-    <div class="mobile-menu" id="mobileMenu">
-
-        <a href="#story" onclick="closeMenu()">Our Story</a>
-        <a href="#details" onclick="closeMenu()">Details</a>
-        <a href="#rsvp" onclick="closeMenu()">RSVP</a>
-        <a href="#travel" onclick="closeMenu()">Travel</a>
-        <a href="#gallery" onclick="closeMenu()">Gallery</a>
-        <a href="#gifts" onclick="closeMenu()">Gifts</a>
-        <a href="#faq" onclick="closeMenu()">FAQ</a>
-
-        <a href="#rsvp"
-            class="mobile-rsvp"
-            onclick="closeMenu()">
-            RSVP NOW →
-        </a>
-
+<section class="rsvp-section" id="rsvp">
+  <div class="rsvp-container">
+    <div class="rsvp-intro">
+      <span class="eyebrow">R S V P</span>
+      <h2 style="text-align:left;color:#F8F2E6">Will you<br>celebrate with<br>us?</h2>
+      <p class="deadline" style="text-align:left;color:#F8F2E6">Please RSVP by <strong>December 18, 2026.</strong></p>
+      <p style="text-align:left;color:#F8F2E6">Your response will help us prepare for a more meaningful and enjoyable celebration.</p>
     </div>
-
-    <header id="home" class="hero">
-        <div class="hero-content">
-            <div class="eyebrow">An Intimate Celebration</div>
-            <h1>Angelo <span>&amp;</span> Michelle</h1>
-            <div class="eyebrow">Are getting married</div>
-            <div class="date">JUNE 5, 2027</div>
-            <div class="location">ANTIPOLO, RIZAL</div>
-            <a class="btn" href="#rsvp">RSVP NOW →</a>
-            <div class="scroll">↓ SCROLL TO EXPLORE</div>
+    <div class="rsvp-form">
+      <div id="lookupStep">
+        <label for="inviteCode">INVITATION CODE</label>
+        <input type="text" id="inviteCode" placeholder="e.g. MG001" autocomplete="off" maxlength="10">
+        <button type="button" id="findInvitationButton" class="rsvp-button" onclick="findInvitation()">FIND MY INVITATION →</button>
+        <div class="invitation-placeholder">
+          <div class="floral-divider"><span></span><span class="floral-symbol">✿</span><span></span></div>
+          <h2>Your invitation awaits.</h2>
+          <p>Please enter your invitation code above<br>to view your personalized invitation details.</p>
+          <div class="monogram">A <span>&amp;</span> M</div>
+          <div class="wedding-date">JUNE 5, 2027 &nbsp; • &nbsp; ANTIPOLO, RIZAL</div>
         </div>
-    </header>
+        <p id="lookupError" class="error-message" role="alert"></p>
+      </div>
 
-    <section id="details" class="details">
-        <div class="section-label">Wedding Details</div>
-        <h2 class="section-title">We can't wait to celebrate with you!</h2>
-        <div class="cards">
-            <div class="card"><div class="icon">⚘</div><h3>Ceremony</h3><p><strong>3:30 PM</strong><br>Jardin de Miramar, PARADISO<br>Antipolo, Rizal</p></div>
-            <div class="card"><div class="icon">☘</div><h3>Reception</h3><p><strong>6:00 PM</strong><br>Jardin de Miramar, CAFE LEONITA <br>Antipolo, Rizal</p></div>
-            <div class="card"><div class="icon">⚜</div><h3>Dress Code</h3><p><strong>Formal / Garden Formal</strong></p>
-            <div id="colorChoices" class="colors" >
-                <button class="swatch burgundy" onclick="showGallery('burgundy')" aria-label="Show burgundy photos"></button>
-                <button class="swatch garnet" onclick="showGallery('garnet')" aria-label="Show garnet photos"></button>
-                <button class="swatch olive" onclick="showGallery('olive')" aria-label="Show olive photos"></button>
-                <button class="swatch moss" onclick="showGallery('moss')" aria-label="Show moss photos"></button>
-                <button class="swatch coffee" onclick="showGallery('coffee')" aria-label="Show coffee photos"></button>
-                <div></div>
-            </div>
-            <p>We'd love to see you in our wedding colors.<br><i>Click each swatch to view sample.</i></p></div>
+      <div id="invitationStep" class="hidden">
+        <div class="welcome">
+          <span>YOU'RE INVITED!</span>
+          <h3 id="guestName"></h3>
+          <p>We have reserved</p>
+          <div class="seat-count"><strong id="seatNumber">0</strong><span>SEAT/S</span></div>
+          <p id="seatMessage"></p>
         </div>
-        <div id="colorGallery" class="color-gallery">
-            <div class="gallery-content">
-                <button class="close-gallery" onclick="closeGallery()">×</button>
-                <p class="gallery-label">OUR WEDDING COLORS</p>
-                <h2 id="galleryTitle">Burgundy</h2>
-                <div id="galleryPhotos" class="gallery-photos"></div>
-            </div>
-
+        <div class="attendance">
+          <label class="attendance-option"><input type="radio" name="attendance" value="yes" onchange="attendanceChanged()"><span>Joyfully accepts</span></label>
+          <label class="attendance-option"><input type="radio" name="attendance" value="no" onchange="attendanceChanged()"><span>Regretfully declines</span></label>
         </div>
-    </section>
-
-    <section class="rsvp-section" id="rsvp">
-        <div class="rsvp-container">
-            <!-- LEFT SIDE -->
-            <div class="rsvp-intro">
-                <span class="eyebrow">R S V P</span>
-                <h2 style="text-align:left;color:#F8F2E6">
-                    Will you<br>
-                    celebrate with<br>
-                    us?
-                </h2>
-                <p class="deadline" style="text-align:left;color:#F8F2E6">
-                    Please RSVP by <strong>December 18, 2026.</strong>
-                </p>
-                <p style="text-align:left;color:#F8F2E6">
-                    Your response will help us prepare
-                    for a more meaningful and enjoyable
-                    celebration.
-                </p>
-            </div>
-            <!-- RIGHT SIDE -->
-            <div class="rsvp-form">
-                <!-- STEP 1 -->
-                <div id="lookupStep">
-                    <label for="inviteCode">
-                        INVITATION CODE
-                    </label>
-                    <input
-                    type="text"
-                    id="inviteCode"
-                    placeholder="e.g. MG001"
-                    autocomplete="off"
-                    maxlength="10"
-                    >
-                    <button
-                        type="button"
-                        id="findInvitationButton"
-                        class="rsvp-button"
-                        onclick="findInvitation()"
-                        >
-                        FIND MY INVITATION →
-                    </button>
-
-                    <div class="invitation-placeholder">
-
-                        <div class="floral-divider">
-                            <span></span>
-                            <span class="floral-symbol">✿</span>
-                            <span></span>
-                        </div>
-
-                        <h2>Your invitation awaits.</h2>
-
-                        <p>
-                            Please enter your invitation code above<br>
-                            to view your personalized invitation details.
-                        </p>
-
-                        <div class="monogram">
-                            A <span>&</span> M
-                        </div>
-
-                        <div class="wedding-date">
-                            JUNE 5, 2027 &nbsp; • &nbsp; ANTIPOLO, RIZAL
-                        </div>
-
-                    </div>
-                    <p id="lookupError" class="error-message"></p>
-                </div>
-
-                <!-- STEP 2 -->
-                <div id="invitationStep" class="hidden">
-                    <div class="welcome">
-                        <span>YOU'RE INVITED!</span>
-                        <h3 id="guestName"></h3>
-                        <p>
-                            We have reserved
-                        </p>
-                        <div class="seat-count">
-                            <strong id="seatNumber">0</strong>
-                            <span>SEAT/S</span>
-                        </div>
-                        <p id="seatMessage"></p>
-                    </div>
-                    <div class="attendance">
-                        <label class="attendance-option">
-                            <input
-                            type="radio"
-                            name="attendance"
-                            value="yes"
-                            onchange="attendanceChanged()"
-                            >
-                            <span>
-                                Joyfully accepts
-                            </span>
-                        </label>
-                        <label class="attendance-option">
-                            <input
-                            type="radio"
-                            name="attendance"
-                            value="no"
-                            onchange="attendanceChanged()"
-                            >
-                            <span>
-                                Regretfully declines
-                            </span>
-
-                        </label>
-                    </div>
-
-                    <!-- GUEST NAMES -->
-                    <div
-                        id="guestNames"
-                        class="guest-names hidden"
-                        >
-                        <h4>
-                            WHO WILL BE JOINING US?
-                        </h4>
-                        <p>
-                            Please enter the names of your guests.
-                        </p>
-                        <div id="guestFields"></div>
-                    </div>
-                    <button
-                        type="button"
-                        id="confirmButton"
-                        class="rsvp-button"
-                        onclick="submitRSVP()"
-                        disabled
-                        >
-                        CONFIRM RSVP →
-                    </button>
-                </div>
-
-                <!-- SUCCESS -->
-                <div id="successStep" class="hidden success-message">
-                    <div class="success-symbol">♡</div>
-                    <h3>Thank you!</h3>
-                    <p>
-                        Your RSVP has been received.
-                    </p>
-                    <p id="successText"></p>
-                </div>
-            </div>
+        <div id="guestNames" class="guest-names hidden">
+          <h4>WHO WILL BE JOINING US?</h4>
+          <p>Please enter the names of your guests.</p>
+          <div id="guestFields"></div>
         </div>
-    </section>
+        <button type="button" id="confirmButton" class="rsvp-button" onclick="submitRSVP()" disabled>CONFIRM RSVP →</button>
+      </div>
 
-    <section id="travel" class="travel">
-        <div class="section-label">Travel & Accommodation</div><h2 class="section-title">For our guests coming from afar</h2>
-        <div class="travel-grid">
-            <div class="card"><h3>📍 Venue</h3><p><strong>Jardin de Miramar</strong><br>Antipolo, Rizal</p><a class="btn" href="https://www.google.com/maps/place/Jardin+de+Miramar+Events+Venue/@14.5936692,121.176623,17z/data=!3m1!4b1!4m6!3m5!1s0x3397bf4e3742c851:0x3d82d7645c74b22!8m2!3d14.593664!4d121.1791979!16s%2Fg%2F1td5tpdy?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">OPEN MAP →</a></div>
-            <div class="card"><h3>🏨 Where to Stay</h3><p>Hiraya Antipolo Vacation Home Villa - 16 mins <br>Hermanas Events Place Resort — 30 mins<br>Villa on the Raxx Resort - 38 mins</p></div>
-            <div class="card"><h3>🚗 Getting There</h3><p><strong>Private Vehicle</strong><br>Parking available at the venue.</p><p><strong>Grab / Taxi</strong><br>Drop-off at PARADISO Venue</p></div>
-        </div>
-    </section>
-
-	<section id="gallery" class="gallery-section">
-		<div class="section-label">PHOTO GALLERY</div>
-		<h2 class="section-title">A few of our favorite moments</h2>
-
-		<div class="featured-photo">
-			<img
-				src="./Photos/wedding.webp"
-				alt="Angelo and Michelle - Save the Date"
-			>
-		</div>
-	</section>
-
-    <section id="gifts" class="gifts">
-        <div class="giftbox">
-            <div class="section-label">Gifts</div><h2 class="section-title">Your love and presence are the best gifts.</h2>
-            <p>Should you wish to give, a monetary contribution toward our future would be warmly welcomed.</p>
-            <div class="gift-options">
-                <div class="gift-bpi">
-                    <h2><strong>Bank Transfer</strong></h2>
-                    <img
-                        src="./Photos/bpi.webp"
-                        alt="BPI QR Code"
-                        class="qr-code"
-                        loading="lazy"
-                        decoding="async"
-                    >
-                </div>
-
-                <div class="gift-maya">
-                    <h2><strong>Maya</strong></h2>
-                    <img
-                        src="./Photos/maya.webp"
-                        alt="Maya QR Code"
-                        class="qr-code"
-                        loading="lazy"
-                        decoding="async"
-                    >
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="faq">
-        <div class="section-label">Frequently Asked Questions</div><h2 class="section-title">We hope this helps!</h2>
-        <div class="faq">
-            <div class="faq-item"><div class="faq-q">Can I bring a plus one? <span>+</span></div><div class="faq-a">We wish we could accommodate everyone, but to keep our wedding small and intimate, we are only able to formally accommodate the number of seats reserved in your honor. Thank you for understanding.</div></div>
-            <div class="faq-item"><div class="faq-q">Are children invited? <span>+</span></div><div class="faq-a">Children are welcome to join us, provided they are named or accounted for within the seats reserved on your invitation.</div></div>
-            <div class="faq-item"><div class="faq-q">What should I wear? <span>+</span></div><div class="faq-a">Our theme is mismatched formal/garden formal. Please refer to the color palette listed in "Dress Code" section.</div></div>
-            <div class="faq-item"><div class="faq-q">What time should I arrive? <span>+</span></div><div class="faq-a">We recommend arriving 30 mins before the wedding.</div></div>
-            <div class="faq-item"><div class="faq-q">Is parking available? <span>+</span></div><div class="faq-a">Yes. Parking is available in the venue.</div></div>
-        </div>
-    </section>
-
-    <div class="countdown">
-        <div class="section-label" style="color:#c9b27c">Until we say I do...</div>
-        <div class="timer">
-            <div class="time"><strong id="days">0</strong><span>DAYS</span></div>
-            <div class="time"><strong id="hours">0</strong><span>HOURS</span></div>
-            <div class="time"><strong id="minutes">0</strong><span>MINUTES</span></div>
-            <div class="time"><strong id="seconds">0</strong><span>SECONDS</span></div>
-        </div>
+      <div id="successStep" class="hidden success-message">
+        <div class="success-symbol">♡</div>
+        <h3>Thank you!</h3>
+        <p>Your RSVP has been received.</p>
+        <p id="successText"></p>
+      </div>
     </div>
+  </div>
+</section>
 
-    <footer>
-        <div class="section-label">With Love</div>
-        <h2>Angelo & Michelle</h2>
-        <p>June 5, 2027 · Antipolo, Rizal</p>
-        <a class="btn" href="#rsvp">RSVP NOW →</a>
-    </footer>
+<section id="travel" class="travel">
+  <div class="section-label">Travel &amp; Accommodation</div>
+  <h2 class="section-title">For our guests coming from afar</h2>
+  <div class="travel-grid">
+    <div class="card"><h3>📍 Venue</h3><p><strong>Jardin de Miramar</strong><br>Antipolo, Rizal</p><a class="btn" href="https://www.google.com/maps/place/Jardin+de+Miramar+Events+Venue/@14.5936692,121.176623,17z/data=!3m1!4b1!4m6!3m5!1s0x3397bf4e3742c851:0x3d82d7645c74b22!8m2!3d14.593664!4d121.1791979!16s%2Fg%2F1td5tpdy?entry=ttu&amp;g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">OPEN MAP →</a></div>
+    <div class="card"><h3>🏨 Where to Stay</h3><p>Hiraya Antipolo Vacation Home Villa - 16 mins<br>Hermanas Events Place Resort — 30 mins<br>Villa on the Raxx Resort - 38 mins</p></div>
+    <div class="card"><h3>🚗 Getting There</h3><p><strong>Private Vehicle</strong><br>Parking available at the venue.</p><p><strong>Grab / Taxi</strong><br>Drop-off at PARADISO Venue</p></div>
+  </div>
+</section>
+
+<section id="gallery" class="gallery-section">
+  <div class="section-label">PHOTO GALLERY</div>
+  <h2 class="section-title">A few of our favorite moments</h2>
+  <div class="featured-photo"><img src="./Photos/wedding.webp" alt="Angelo and Michelle - Save the Date" loading="lazy" decoding="async"></div>
+</section>
+
+<section id="gifts" class="gifts">
+  <div class="giftbox">
+    <div class="section-label">Gifts</div>
+    <h2 class="section-title">Your love and presence are the best gifts.</h2>
+    <p>Should you wish to give, a monetary contribution toward our future would be warmly welcomed.</p>
+    <div class="gift-options">
+      <div class="gift-bpi"><h2><strong>Bank Transfer</strong></h2><img src="./Photos/bpi.webp" alt="BPI QR Code" class="qr-code" width="120" height="120" loading="lazy" decoding="async"></div>
+      <div class="gift-maya"><h2><strong>Maya</strong></h2><img src="./Photos/maya.webp" alt="Maya QR Code" class="qr-code" width="120" height="120" loading="lazy" decoding="async"></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="section-label">Frequently Asked Questions</div>
+  <h2 class="section-title">We hope this helps!</h2>
+  <div class="faq">
+    <div class="faq-item"><button type="button" class="faq-q" aria-expanded="false">Can I bring a plus one? <span>+</span></button><div class="faq-a">We wish we could accommodate everyone, but to keep our wedding small and intimate, we are only able to formally accommodate the number of seats reserved in your honor. Thank you for understanding.</div></div>
+    <div class="faq-item"><button type="button" class="faq-q" aria-expanded="false">Are children invited? <span>+</span></button><div class="faq-a">Children are welcome to join us, provided they are named or accounted for within the seats reserved on your invitation.</div></div>
+    <div class="faq-item"><button type="button" class="faq-q" aria-expanded="false">What should I wear? <span>+</span></button><div class="faq-a">Our theme is mismatched formal/garden formal. Please refer to the color palette listed in "Dress Code" section.</div></div>
+    <div class="faq-item"><button type="button" class="faq-q" aria-expanded="false">What time should I arrive? <span>+</span></button><div class="faq-a">We recommend arriving 30 mins before the wedding.</div></div>
+    <div class="faq-item"><button type="button" class="faq-q" aria-expanded="false">Is parking available? <span>+</span></button><div class="faq-a">Yes. Parking is available in the venue.</div></div>
+  </div>
+</section>
+
+<div class="countdown">
+  <div class="section-label" style="color:#c9b27c">Until we say I do...</div>
+  <div class="timer" id="timer">
+    <div class="time"><strong id="days">0</strong><span>DAYS</span></div>
+    <div class="time"><strong id="hours">0</strong><span>HOURS</span></div>
+    <div class="time"><strong id="minutes">0</strong><span>MINUTES</span></div>
+    <div class="time"><strong id="seconds">0</strong><span>SECONDS</span></div>
+  </div>
+</div>
+</main>
+
+<footer>
+  <div class="section-label">With Love</div>
+  <h2>Angelo &amp; Michelle</h2>
+  <p>June 5, 2027 · Antipolo, Rizal</p>
+  <a class="btn" href="#rsvp">RSVP NOW →</a>
+</footer>
 
 <script>
-        /* ============================================================
-           WEDDING WEBSITE SCRIPTS
-           ============================================================ */
+const weddingDate = new Date("2027-06-05T15:30:00+08:00").getTime();
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzs6AZcKYF1EnLppCG4npIqyf97ungssyKR_DmgDBkfoSQSf8IODQuG_ZOGX_tVyU5Zlg/exec";
+const music = document.getElementById("weddingMusic");
+const musicButton = document.getElementById("musicButton");
+const galleries = {
+  burgundy:{title:"Burgundy",photos:["./Photos/burgundy-1.webp","./Photos/burgundy-2.webp","./Photos/burgundy-3.webp"]},
+  garnet:{title:"Garnet",photos:["./Photos/garnet-1.webp","./Photos/garnet-2.webp","./Photos/garnet-3.webp"]},
+  olive:{title:"Olive Green",photos:["./Photos/olive-1.webp","./Photos/olive-2.webp","./Photos/olive-3.webp"]},
+  moss:{title:"Moss Green",photos:["./Photos/moss-1.webp","./Photos/moss-2.webp","./Photos/moss-3.webp"]},
+  coffee:{title:"Coffee",photos:["./Photos/coffee-1.webp","./Photos/coffee-2.webp","./Photos/coffee-3.webp"]}
+};
+let currentGuest = null, musicStarted = false;
+music.volume = 0.2;
 
-    const weddingDate = new Date("2027-06-05T15:30:00+08:00").getTime();
+/* ---------- Music ---------- */
+function setMusicUI(on){
+  musicButton.classList.toggle("playing", on);
+  musicButton.innerHTML = on ? "❚❚" : "♫";
+  musicButton.setAttribute("aria-pressed", on);
+  musicButton.setAttribute("aria-label", on ? "Pause wedding music" : "Play wedding music");
+}
+function startMusicAfterInteraction(){
+  if (musicStarted || !music.paused) return;
+  music.play().then(() => { musicStarted = true; setMusicUI(true); }).catch(() => {});
+}
+document.addEventListener("pointerdown", startMusicAfterInteraction, { once: true });
+function toggleMusic(){
+  if (music.paused) music.play().then(() => { musicStarted = true; setMusicUI(true); }).catch(() => {});
+  else { music.pause(); setMusicUI(false); }
+}
 
-    if (Number.isNaN(weddingDate)) {
-        console.error("Invalid wedding date.");
+/* ---------- Mobile menu ---------- */
+const menu = document.getElementById("mobileMenu"), menuBtn = document.getElementById("menuToggle");
+function toggleMenu(){
+  const open = menu.classList.toggle("active");
+  menuBtn.setAttribute("aria-expanded", open);
+  menuBtn.setAttribute("aria-label", open ? "Close navigation menu" : "Open navigation menu");
+  menuBtn.innerHTML = open ? "×" : "☰";
+}
+function closeMenu(){
+  menu.classList.remove("active");
+  menuBtn.setAttribute("aria-expanded", "false");
+  menuBtn.setAttribute("aria-label", "Open navigation menu");
+  menuBtn.innerHTML = "☰";
+}
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeMenu(); });
+document.addEventListener("click", e => {
+  if (menu.classList.contains("active") && !menu.contains(e.target) && !menuBtn.contains(e.target)) closeMenu();
+});
+
+/* ---------- Find invitation ---------- */
+function findInvitation(){
+  const error = document.getElementById("lookupError");
+  const button = document.getElementById("findInvitationButton");
+  const code = document.getElementById("inviteCode").value.trim().toUpperCase();
+  if (!code){ error.textContent = "Please enter your invitation code."; return; }
+
+  button.disabled = true;
+  button.innerHTML = '<span class="loading-spinner"></span> LOOKING UP...';
+  error.textContent = "";
+
+  const cb = "guestLookup_" + Date.now();
+  const script = document.createElement("script");
+  let timer;
+  const reset = () => {
+    clearTimeout(timer); delete window[cb]; script.remove();
+    button.disabled = false; button.textContent = "FIND MY INVITATION →";
+  };
+  timer = setTimeout(() => { reset(); error.textContent = "This is taking too long. Please check your connection and try again."; }, 10000);
+  script.onerror = () => { reset(); error.textContent = "Could not reach the server. Please try again."; };
+  window[cb] = data => {
+    reset();
+    if (!data || !data.success){ error.textContent = (data && data.error) || "Invitation code not found."; return; }
+    currentGuest = { code, name: data.guest, seats: Number(data.seats) };
+    showInvitation();
+  };
+  script.src = GOOGLE_SCRIPT_URL + "?action=lookup&code=" + encodeURIComponent(code) + "&callback=" + cb;
+  document.body.appendChild(script);
+}
+document.getElementById("inviteCode").addEventListener("keydown", e => { if (e.key === "Enter") findInvitation(); });
+
+/* ---------- Invitation ---------- */
+function showInvitation(){
+  document.getElementById("lookupStep").classList.add("hidden");
+  document.getElementById("invitationStep").classList.remove("hidden");
+  document.getElementById("guestName").textContent = currentGuest.name;
+  document.getElementById("seatNumber").textContent = currentGuest.seats;
+  document.getElementById("seatMessage").textContent = currentGuest.seats === 1
+    ? "This invitation is reserved for you."
+    : "These seats have been reserved in your honor.";
+  document.getElementById("guestNames").classList.add("hidden");
+  if (currentGuest.seats > 1) createGuestFields();
+  else document.getElementById("guestFields").innerHTML = "";
+}
+function attendanceChanged(){
+  const selected = document.querySelector('input[name="attendance"]:checked');
+  if (!selected) return;
+  document.getElementById("confirmButton").disabled = false;
+  const needNames = selected.value === "yes" && currentGuest.seats > 1;
+  document.getElementById("guestNames").classList.toggle("hidden", !needNames);
+}
+function createGuestFields(){
+  const container = document.getElementById("guestFields");
+  container.innerHTML = "";
+  for (let i = 2; i <= currentGuest.seats; i++){
+    const wrapper = document.createElement("div");
+    wrapper.className = "guest-field";
+    const label = document.createElement("label");
+    label.htmlFor = "guest" + i;
+    label.textContent = "GUEST " + i;
+    const input = document.createElement("input");
+    input.type = "text"; input.id = "guest" + i; input.className = "guest-name-input";
+    input.placeholder = "Full name"; input.maxLength = 60;
+    wrapper.append(label, input);
+    container.appendChild(wrapper);
+  }
+}
+
+/* ---------- Submit RSVP ---------- */
+async function submitRSVP(){
+  const selected = document.querySelector('input[name="attendance"]:checked');
+  if (!selected){ alert("Please select whether you will attend."); return; }
+  const attending = selected.value === "yes";
+  const guestNames = [];
+  if (attending){
+    for (const input of document.querySelectorAll(".guest-name-input")){
+      const name = input.value.trim().replace(/^[=+\-@\s]+/, "").slice(0, 60);
+      if (!name){ alert("Please enter the name of each guest."); input.focus(); return; }
+      guestNames.push(name);
     }
-    const music = document.getElementById("weddingMusic");
-    const musicButton = document.getElementById("musicButton");
-    const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzs6AZcKYF1EnLppCG4npIqyf97ungssyKR_DmgDBkfoSQSf8IODQuG_ZOGX_tVyU5Zlg/exec";
-    const galleries = { 
-
-      burgundy: {
-        title: "Burgundy",
-        photos: [
-          "./Photos/burgundy-1.webp",
-          "./Photos/burgundy-2.webp",
-          "./Photos/burgundy-3.webp"
-        ]
-      },
-
-      garnet: {
-        title: "Garnet",
-        photos: [
-          "./Photos/garnet-1.webp",
-          "./Photos/garnet-2.webp",
-          "./Photos/garnet-3.webp"
-        ]
-      },
-
-      olive: {
-        title: "Olive Green",
-        photos: [
-          "./Photos/olive-1.webp",
-          "./Photos/olive-2.webp",
-          "./Photos/olive-3.webp"
-        ]
-      },
-
-      moss: {
-        title: "Moss Green",
-        photos: [
-          "./Photos/moss-1.webp",
-          "./Photos/moss-2.webp",
-          "./Photos/moss-3.webp"
-        ]
-      },
-
-      coffee: {
-        title: "Coffee",
-        photos: [
-          "./Photos/coffee-1.webp",
-          "./Photos/coffee-2.webp",
-          "./Photos/coffee-3.webp"
-        ]
-      }
-
-    };
-    /* =========================
-       RSVP
-    ========================= */
-
-    let currentGuest = null;
-
-    /* =========================
-       MUSIC
-    ========================= */
-    let musicPlaying = false;
-    let musicStarted = false;
-
-    music.volume = 0.2;
-
-
-    // First interaction with the page
-    document.addEventListener(
-        "pointerdown",
-        startMusicAfterInteraction,
-        { once: true }
-    );
-
-    /* =========================
-       MOBILE MENU
-    ========================= */
-
-    function toggleMenu() {
-
-        const menu = document.getElementById("mobileMenu");
-        const button = document.getElementById("menuToggle");
-
-        menu.classList.toggle("active");
-
-        const isOpen = menu.classList.contains("active");
-
-        button.setAttribute("aria-expanded", isOpen);
-
-        button.innerHTML = isOpen ? "×" : "☰";
-    }
-
-
-    function closeMenu() {
-
-        const menu = document.getElementById("mobileMenu");
-        const button = document.getElementById("menuToggle");
-
-        menu.classList.remove("active");
-
-        button.setAttribute("aria-expanded", "false");
-
-        button.innerHTML = "☰";
-    }
-    document.addEventListener("keydown", (event) => {
-        if (event.key === "Escape") {
-            closeMenu();
-        }
+  }
+  const button = document.getElementById("confirmButton");
+  button.disabled = true;
+  button.textContent = "SENDING...";
+  try {
+    const res = await fetch(GOOGLE_SCRIPT_URL, {
+      method: "POST",
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify({ code: currentGuest.code, attending, guestNames })
     });
-
-    document.addEventListener("click", (event) => {
-        const menu = document.getElementById("mobileMenu");
-        const button = document.getElementById("menuToggle");
-
-        if (
-            menu &&
-            button &&
-            menu.classList.contains("active") &&
-            !menu.contains(event.target) &&
-            !button.contains(event.target)
-        ) {
-            closeMenu();
-        }
-    });
-
-    /* =========================
-       FIND INVITATION
-    ========================= */
-
-    function findInvitation() {
-
-        const codeInput =
-            document.getElementById("inviteCode");
-
-        const error =
-            document.getElementById("lookupError");
-
-        const button =
-            document.getElementById("findInvitationButton");
-
-        const code =
-            codeInput.value.trim().toUpperCase();
-
-        if (!code) {
-            error.textContent =
-                "Please enter your invitation code.";
-            return;
-        }
-
-    	// Loading state
-        button.disabled = true;
-        button.innerHTML = '<span class="loading-spinner"></span> LOOKING UP...';
-        error.textContent = "";
-
-        const callbackName =
-            "guestLookup_" + Date.now();
-
-        window[callbackName] = function(data) {
-
-            console.log("Google response:", data);
-
-            delete window[callbackName];
-
-            const script =
-                document.getElementById(callbackName);
-
-            if (script) {
-                script.remove();
-            }
-
-            if (!data || !data.success) {
-
-                error.textContent =
-                    data && data.error
-                        ? data.error
-                        : "Invitation code not found.";
-
-    			    // Restore button
-    			button.disabled = false;
-    			button.textContent = "FIND MY INVITATION →";
-
-                return;
-            }
-
-            currentGuest = {
-                name: data.guest,
-                seats: Number(data.seats)
-            };
-
-            error.textContent = "";
-
-            showInvitation();
-        };
-
-        const script =
-            document.createElement("script");
-
-        script.id = callbackName;
-
-        script.src =
-            GOOGLE_SCRIPT_URL +
-            "?action=lookup" +
-            "&code=" +
-            encodeURIComponent(code) +
-            "&callback=" +
-            callbackName;
-
-        console.log("Looking up:", script.src);
-
-        document.body.appendChild(script);
-    }
-
-    // Allow pressing ENTER to find invitation
-    document.getElementById("inviteCode")
-        .addEventListener("keydown", function(e) {
-            if (e.key === "Enter") {
-                findInvitation();
-            }
-        });
-
-    /* =========================
-       SHOW INVITATION
-    ========================= */
-
-    function showInvitation() {
-
-        document
-            .getElementById("lookupStep")
-            .classList.add("hidden");
-
-        document
-            .getElementById("invitationStep")
-            .classList.remove("hidden");
-
-        document.getElementById("guestName")
-            .textContent = currentGuest.name;
-
-        document.getElementById("seatNumber")
-            .textContent = currentGuest.seats;
-
-        document.getElementById("seatMessage")
-            .textContent =currentGuest.seats === 1
-                ? "This invitation is reserved for you."
-                : "These seats have been reserved in your honor.";
-
-    	const guestNames = document.getElementById("guestNames");
-
-        if (currentGuest.seats <= 1) {
-            guestNames.classList.add("hidden");
-            document.getElementById("guestFields").innerHTML = "";
-        } else {
-            guestNames.classList.remove("hidden");
-            createGuestFields();
-        }	
-    }
-
-
-    /* =========================
-       ATTENDANCE
-    ========================= */
-
-    function attendanceChanged() {
-
-        const selected =
-            document.querySelector(
-                'input[name="attendance"]:checked'
-            );
-
-        const guestNames =
-            document.getElementById("guestNames");
-
-        const confirmButton =
-            document.getElementById("confirmButton");
-
-        if (!selected) {
-            return;
-        }
-
-        confirmButton.disabled = false;
-
-        if (currentGuest && currentGuest.seats > 1) {
-            guestNames.classList.remove("hidden");
-            createGuestFields();
-
-        } else {
-            guestNames.classList.add("hidden");
-    		document.getElementById("guestFields").innerHTML = "";
-        }
-    }
-
-
-    /* =========================
-       CREATE GUEST FIELDS
-    ========================= */
-
-    function createGuestFields() {
-
-        const container =
-            document.getElementById("guestFields");
-
-        container.innerHTML = "";
-
-        const plusOnes =
-            currentGuest.seats - 1;
-
-        for (
-            let i = 1;
-            i <= plusOnes;
-            i++
-        ) {
-
-            const wrapper =
-                document.createElement("div");
-
-            wrapper.className =
-                "guest-field";
-
-            const label =
-                document.createElement("label");
-
-            label.textContent =
-                "GUEST " + (i + 1);
-
-            const input =
-                document.createElement("input");
-
-            input.type = "text";
-
-            input.className =
-                "guest-name-input";
-
-            input.placeholder =
-                "Full name";
-
-            wrapper.appendChild(label);
-            wrapper.appendChild(input);
-
-            container.appendChild(wrapper);
-        }
-    }
-
-
-    /* =========================
-       SUBMIT RSVP
-    ========================= */
-
-    async function submitRSVP() {
-
-        const selected =
-            document.querySelector(
-                'input[name="attendance"]:checked'
-            );
-
-        if (!selected) {
-            alert("Please select whether you will attend.");
-            return;
-        }
-
-        const attending =
-            selected.value === "yes";
-
-        let guestNames = [];
-
-        if (attending) {
-
-            const inputs =
-                document.querySelectorAll(
-                    ".guest-name-input"
-                );
-
-            for (const input of inputs) {
-
-                const name =
-                    input.value.trim();
-
-                if (!name) {
-
-                    alert(
-                        "Please enter the name of each guest."
-                    );
-
-                    input.focus();
-
-                    return;
-                }
-
-                guestNames.push(name);
-            }
-        }
-
-        // Invitation code
-        const code =
-            document.getElementById("inviteCode")
-                .value
-                .trim()
-                .toUpperCase();
-
-        const button =
-            document.getElementById("confirmButton");
-
-        button.disabled = true;
-        button.textContent = "SENDING...";
-
-        const data = {
-
-            code: code,
-            attending: attending,
-            guestNames: guestNames
-
-        };
-
-        try {
-
-            /*
-             * Send the RSVP in the background.
-             * Google Apps Script can take a few seconds to finish writing
-             * to Google Sheets, so the website should not wait for the
-             * spreadsheet response before showing the confirmation.
-             */
-            const payload = JSON.stringify(data);
-            const blob = new Blob(
-                [payload],
-                { type: "text/plain;charset=utf-8" }
-            );
-
-            let queued = false;
-
-            if (navigator.sendBeacon) {
-                queued = navigator.sendBeacon(
-                    GOOGLE_SCRIPT_URL,
-                    blob
-                );
-            }
-
-            /* Fallback for browsers where sendBeacon is unavailable/full. */
-            if (!queued) {
-                fetch(GOOGLE_SCRIPT_URL, {
-                    method: "POST",
-                    mode: "no-cors",
-                    headers: {
-                        "Content-Type": "text/plain;charset=utf-8"
-                    },
-                    body: payload,
-                    keepalive: true
-                }).catch(error => {
-                    console.error("Background RSVP submission failed:", error);
-                });
-            }
-
-            /* Do not wait for Google Sheets. */
-            showSuccess(attending);
-
-        } catch (error) {
-
-            console.error(error);
-
-            alert(
-                "There was a problem submitting your RSVP. Please try again."
-            );
-
-            button.disabled = false;
-
-            button.textContent =
-                "CONFIRM RSVP →";
-        }
-    }
-
-    /* =========================
-       SUCCESS
-    ========================= */
-
-    function showSuccess(attending) {
-
-        document
-            .getElementById("invitationStep")
-            .classList.add("hidden");
-
-        document
-            .getElementById("successStep")
-            .classList.remove("hidden");
-
-        const text =
-            document.getElementById("successText");
-
-        if (attending) {
-
-            text.textContent =
-                "We look forward to celebrating with you!";
-
-        } else {
-
-            text.textContent =
-                "Thank you for letting us know. You will be missed!";
-        }
-    }
-
-    function updateCountdown() {
-        const now = new Date().getTime();
-        const distance = weddingDate - now;
-
-        if (distance <= 0) {
-            document.getElementById("days").textContent = "0";
-            document.getElementById("hours").textContent = "0";
-            document.getElementById("minutes").textContent = "0";
-            document.getElementById("seconds").textContent = "0";
-            return;
-        }
-
-        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        const hours = Math.floor(
-            (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-        );
-        const minutes = Math.floor(
-            (distance % (1000 * 60 * 60)) / (1000 * 60)
-        );
-        const seconds = Math.floor(
-            (distance % (1000 * 60)) / 1000
-        );
-
-        document.getElementById("days").textContent = days;
-        document.getElementById("hours").textContent = String(hours).padStart(2, "0");
-        document.getElementById("minutes").textContent = String(minutes).padStart(2, "0");
-        document.getElementById("seconds").textContent = String(seconds).padStart(2, "0");
-    }
-
-    updateCountdown();
-    setInterval(updateCountdown, 1000);
-
-    document.querySelectorAll(".faq-q").forEach(q=>q.addEventListener("click",()=>{
-     const a=q.nextElementSibling, open=a.style.display==="block";
-     document.querySelectorAll(".faq-a").forEach(x=>x.style.display="none");
-     document.querySelectorAll(".faq-q span").forEach(x=>x.textContent="+");
-     if(!open){a.style.display="block";q.querySelector("span").textContent="−";}
-    }));
-
-    function showGallery(color) {
-
-      const gallery = document.getElementById("colorGallery");
-      const title = document.getElementById("galleryTitle");
-      const photos = document.getElementById("galleryPhotos");
-
-      const selected = galleries[color];
-
-      if (!selected) {
-        return;
-      }
-
-      title.textContent = selected.title;
-
-      photos.innerHTML = "";
-
-      selected.photos.forEach(photo => {
-
-        const img = document.createElement("img");
-
-        img.src = photo;
-        img.alt = selected.title + " wedding inspiration";
-    	img.loading = "lazy";
-        img.decoding = "async";
-
-        photos.appendChild(img);
-
-      });
-      gallery.classList.add("active");
-
-      setTimeout(() => {
-        gallery.scrollIntoView({
-          behavior: "smooth",
-          block: "start"
-        });
-      }, 100);
-    }
-
-
-    function closeGallery() {
-      const gallery = document.getElementById("colorGallery");
-      const choices = document.getElementById("colorChoices");
-
-      //Close the gallery
-      gallery.classList.remove("active");
-
-        //Scroll back to color choices
-      setTimeout(() => {
-    	choices.scrollIntoView({
-    		behavior: "smooth",
-    		block: "center"
-    	});
-      }, 400);
-    }
-
-    // Try to start music after the first user interaction
-    function startMusicAfterInteraction() {
-
-        if (musicStarted || !music.paused) {
-            return;
-        }
-        music.play()
-            .then(() => {
-                musicPlaying = true;
-                musicStarted = true;
-
-                musicButton.classList.add("playing");
-                musicButton.innerHTML = "❚❚";
-                musicButton.setAttribute("aria-pressed", "true");
-                musicButton.setAttribute("aria-label", "Pause wedding music");
-            })
-            .catch(() => {
-                console.log("Music still blocked.");
-            });
-    }
-
-    // Music button
-    function toggleMusic() {
-        if (music.paused) {
-            music.play()
-                .then(() => {
-                    musicPlaying = true;
-                    musicStarted = true;
-
-                    musicButton.classList.add("playing");
-                    musicButton.innerHTML = "❚❚";
-                });
-
-        } else {
-
-            music.pause();
-
-            musicPlaying = false;
-
-            musicButton.classList.remove("playing");
-            musicButton.innerHTML = "♫";
-            musicButton.setAttribute("aria-pressed", "false");
-            musicButton.setAttribute("aria-label", "Play wedding music");
-        }
-    }
+    let result = null;
+    try { result = await res.json(); } catch (e) {}
+    if (!res.ok || (result && result.success === false)) throw new Error((result && result.error) || "Submit failed");
+    showSuccess(attending);
+  } catch (error) {
+    console.error(error);
+    alert("We couldn't save your RSVP. Please check your connection and try again.");
+    button.disabled = false;
+    button.textContent = "CONFIRM RSVP →";
+  }
+}
+function showSuccess(attending){
+  document.getElementById("invitationStep").classList.add("hidden");
+  document.getElementById("successStep").classList.remove("hidden");
+  document.getElementById("successText").textContent = attending
+    ? "We look forward to celebrating with you!"
+    : "Thank you for letting us know. You will be missed!";
+}
+
+/* ---------- Countdown ---------- */
+let countdownTimer;
+function updateCountdown(){
+  const distance = weddingDate - Date.now();
+  if (Number.isNaN(distance)) return;
+  if (distance <= 0){
+    document.getElementById("timer").innerHTML = '<strong style="font:44px \'Cormorant Garamond\',serif">Today we say I do!</strong>';
+    clearInterval(countdownTimer);
+    return;
+  }
+  const pad = n => String(n).padStart(2, "0");
+  document.getElementById("days").textContent = Math.floor(distance / 864e5);
+  document.getElementById("hours").textContent = pad(Math.floor(distance % 864e5 / 36e5));
+  document.getElementById("minutes").textContent = pad(Math.floor(distance % 36e5 / 6e4));
+  document.getElementById("seconds").textContent = pad(Math.floor(distance % 6e4 / 1e3));
+}
+updateCountdown();
+countdownTimer = setInterval(updateCountdown, 1000);
+
+/* ---------- FAQ ---------- */
+document.querySelectorAll(".faq-q").forEach(q => q.addEventListener("click", () => {
+  const a = q.nextElementSibling, open = a.style.display === "block";
+  document.querySelectorAll(".faq-a").forEach(x => x.style.display = "none");
+  document.querySelectorAll(".faq-q").forEach(x => { x.setAttribute("aria-expanded", "false"); x.querySelector("span").textContent = "+"; });
+  if (!open){ a.style.display = "block"; q.setAttribute("aria-expanded", "true"); q.querySelector("span").textContent = "−"; }
+}));
+
+/* ---------- Color gallery ---------- */
+function showGallery(color){
+  const selected = galleries[color];
+  if (!selected) return;
+  const gallery = document.getElementById("colorGallery");
+  const photos = document.getElementById("galleryPhotos");
+  document.getElementById("galleryTitle").textContent = selected.title;
+  photos.innerHTML = "";
+  selected.photos.forEach(src => {
+    const img = document.createElement("img");
+    img.src = src; img.alt = selected.title + " wedding inspiration";
+    img.loading = "lazy"; img.decoding = "async";
+    photos.appendChild(img);
+  });
+  gallery.classList.add("active");
+  setTimeout(() => gallery.scrollIntoView({ behavior: "smooth", block: "start" }), 100);
+}
+function closeGallery(){
+  document.getElementById("colorGallery").classList.remove("active");
+  setTimeout(() => document.getElementById("colorChoices").scrollIntoView({ behavior: "smooth", block: "center" }), 400);
+}
 </script>
 </body>
 </html>
