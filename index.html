@@ -217,17 +217,22 @@ section{padding-left:10px;padding-right:10px}
 <nav aria-label="Main">
   <a href="#home" class="logo">A | M</a>
   <div class="navlinks">
-    <a href="#details">Details</a><a href="#rsvp">RSVP</a><a href="#travel">Travel</a><a href="#gallery">Gallery</a><a href="#gifts">Gifts</a><a href="#faq">FAQ</a>
+    <a href="#gallery">Our Story</a>
+	<a href="#details">Details</a>
+	<a href="#rsvp">RSVP</a>
+	<a href="#travel">Travel</a>
+	<a href="#gifts">Gifts</a>
+	<a href="#faq">FAQ</a>
   </div>
   <a href="#rsvp" class="navbtn">RSVP NOW →</a>
   <button type="button" class="menu-toggle" id="menuToggle" onclick="toggleMenu()" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileMenu">☰</button>
 </nav>
 
 <div class="mobile-menu" id="mobileMenu">
+  <a href="#gallery" onclick="closeMenu()">Our Story</a>
   <a href="#details" onclick="closeMenu()">Details</a>
   <a href="#rsvp" onclick="closeMenu()">RSVP</a>
   <a href="#travel" onclick="closeMenu()">Travel</a>
-  <a href="#gallery" onclick="closeMenu()">Gallery</a>
   <a href="#gifts" onclick="closeMenu()">Gifts</a>
   <a href="#faq" onclick="closeMenu()">FAQ</a>
   <a href="#rsvp" class="mobile-rsvp" onclick="closeMenu()">RSVP NOW →</a>
@@ -245,6 +250,12 @@ section{padding-left:10px;padding-right:10px}
     <div class="scroll">↓ SCROLL TO EXPLORE</div>
   </div>
 </header>
+
+<section id="gallery" class="gallery-section">
+  <div class="section-label">OUR STORY</div>
+  <h2 class="section-title">A few of our favorite moments</h2>
+  <div class="featured-photo"><img src="./Photos/wedding.webp" alt="Angelo and Michelle - Save the Date" loading="lazy" decoding="async"></div>
+</section>
 
 <section id="details" class="details">
   <div class="section-label">Wedding Details</div>
@@ -333,12 +344,6 @@ section{padding-left:10px;padding-right:10px}
     <div class="card"><h3>🏨 Where to Stay</h3><p>Hiraya Antipolo Vacation Home Villa - 16 mins<br>Hermanas Events Place Resort — 30 mins<br>Villa on the Raxx Resort - 38 mins</p></div>
     <div class="card"><h3>🚗 Getting There</h3><p><strong>Private Vehicle</strong><br>Parking available at the venue.</p><p><strong>Grab / Taxi</strong><br>Drop-off at PARADISO Venue</p></div>
   </div>
-</section>
-
-<section id="gallery" class="gallery-section">
-  <div class="section-label">PHOTO GALLERY</div>
-  <h2 class="section-title">A few of our favorite moments</h2>
-  <div class="featured-photo"><img src="./Photos/wedding.webp" alt="Angelo and Michelle - Save the Date" loading="lazy" decoding="async"></div>
 </section>
 
 <section id="gifts" class="gifts">
